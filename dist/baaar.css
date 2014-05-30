@@ -1,0 +1,29 @@
+
+.Baaar {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.Baaar-innie {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.Baaar {
+  height: 4px;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.Baaar-innie {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  background-color: #222;
+}
+
+

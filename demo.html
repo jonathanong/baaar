@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Long Baaar is Long</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="dist/baaar.css">
+    <script src="dist/baaar.js"></script>
+  </head>
+  <body>
+    <script>
+      var bar = new Baaar()
+      var interval = setInterval(function () {
+        bar.set(
+          100 * Math.random(),
+          '#'+Math.floor(Math.random()*16777215).toString(16)
+        )
+      }, 1000)
+      function destroy() {
+        clearInterval(interval)
+        bar.destroy()
+      }
+    </script>
+    <br><br>
+    <p>To destroy, type in the console: <code>destroy()</code></p>
+  </body>
+</html>

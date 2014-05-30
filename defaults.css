@@ -1,0 +1,10 @@
+
+.Baaar {
+  height: 4px;
+  transition: all 0.5s linear;
+}
+
+.Baaar-innie {
+  transition: all 0.5s linear;
+  background-color: #222;
+}

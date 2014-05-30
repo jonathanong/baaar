@@ -1,0 +1,14 @@
+{
+  "name": "baaar",
+  "description": "a colorful top loading progress bar",
+  "version": "1.0.0",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "index.css",
+    "defaults.css"
+  ],
+  "license": "MIT",
+  "repository": "component/baaar"
+}
